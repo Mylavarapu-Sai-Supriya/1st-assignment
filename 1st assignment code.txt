@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<head>
+	<title>weather</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		html{
+			background-color:#e0e0e0;
+		}
+		body{
+			position:relative;
+			border:0px solid black;
+			width:1190px;
+			height:550px;
+			border-radius: 10px;
+			margin-top:40px;
+			margin-bottom:20px;
+			margin-left: 90px;
+			float:left;
+			padding-left:-100px;
+			background-color: white;
+		}
+		#twitter{ 
+           position:relative;
+           left:70px;
+		}
+		#instagram{
+			position:relative;
+			left:90px;
+		}
+		#wearest{
+			display:inline-block;
+			position:relative;
+			left:438px;
+			font-size: 30px;
+		}
+		input[type=text]{
+			background:#e0e0e0;
+			border: 0px;
+			border-radius:20px;
+			font-size:12px;
+			background-image: url('searchhh.png');
+			background-repeat:no-repeat;
+			background-position: 4px 4px;
+			padding: 7px 10px 8px 28px;
+			-webkit-transition: width 0.4s ease-in-out;
+			transition:width 0.4s ease-in-out;
+		
+		}
+		.sideLine{
+			position:relative;
+			left:-45px;
+		}
+		.degree{
+			position:relative;
+			left:-83px;
+		}
+		#line{
+			position:relative;
+			right:10px;
+			top:3px;
+		}
+		#left{
+			position:relative;
+			left:10px;
+		}
+		#middle{
+			display:inline-block;
+			position:relative;
+			left:390px;
+			bottom:350px;
+		}
+		#line2{
+			position:relative;
+			left:-65px;
+		}
+		#five{
+			position:relative;
+			left:-90px;
+			bottom:6px;
+		}
+		.me{
+			position:relative;
+			left:-58px;
+			font-size:8px;
+			vertical-align:top;
+			top:3px;
+		}
+		.o{
+			position:relative;
+			left:-70px;
+			font-size:8px;
+			vertical-align:middle;
+		}
+		.n{
+			position:relative;
+			left:-80px;
+			font-size:8px;
+			vertical-align:bottom;
+		}
+		#image2{
+			position: relative;
+			left:470px;
+			bottom:330px;
+		}
+		#text{
+			position: relative;
+			left:930px;
+			top:-55px;
+		}
+		.image4{
+			position:relative;
+			left:10px;
+		}
+		#some3{
+			position:relative;
+			left:10px;
+		}
+	</style>
+</head>
+<body>
+	<img id ="twitter" src="twitter.png" width=20 height=20>
+	<img id="instagram" src="instagram.png" width=20 height=20>
+	<p id="wearest"><b>Wearest.</b></p>
+	<form>
+	     <input type="text" id="text" size=10px placeholder="search place">
+	</form>
+    <table id="left">
+    	<tr>
+        <td>
+    	<figure class="image4">
+    		<img src="img_c.jpg" width=30 height=20>
+    		<figcaption style="font-size:5px; position:relative; left:5px" >WINTER</figcaption>
+    	</figure>
+        </td>
+        <td><img class="sideLine" src="line.png" width=20 height=48></td>
+       <td class="me">T</td><td class="o">U</td><td class="n" style="top:-7px;">E</td>
+       <td><b style="font-size: 30px;" class="degree">5°</b></td>
+        </tr>
+    	<tr>
+        <td>
+    	<figure class="image4">
+    		<img src="img_c.jpg" width=30 height=20>
+    		<figcaption style="font-size:5px; position:relative; left:5px">WINTER</figcaption>
+    	</figure>
+        </td>
+        <td><img class="sideLine" src="line.png" width=20 height=48></td>
+        <td class="me">W</td><td class="o">E</td><td class="n" style="top:-7px;">D</td>
+        <td><b style="font-size: 30px;" class="degree">4°</b></td>
+        </tr>
+        <tr>
+        <td>
+    	<figure class="image4">
+    		<img  src="img_c.jpg" width=30 height=20>
+    		<figcaption style="font-size:5px; position:relative; left:5px">WINTER</figcaption>
+    	</figure>
+        </td>
+        <td><img class="sideLine" src="line.png" width=20 height=48></td>
+        <td class="me">T</td><td class="o">H</td><td class="n" style="top:-7px;">U</td>
+        <td><b style="font-size: 30px;" class="degree">1°</b></td>
+        </tr>
+        <tr>
+        <td>
+    	<figure class="image4">
+    		<img src="img_c.jpg" width=30 height=20>
+    		<figcaption style="font-size:5px; position:relative; left:5px">WINTER</figcaption>
+    	</figure>
+        </td>
+        <td><img class="sideLine" src="line.png" width=20 height=48></td>
+        <td class="me">F</td><td class="o">R</td><td class="n" style="top:-7px;">I</td>
+        <td><b style="font-size: 30px;" class="degree">3°</b></td>
+        </tr>
+        <tr>
+        <td>
+    	<figure class="image4">
+    		<img src="img_c.jpg" width=30 height=20>
+    		<figcaption style="font-size:5px;position:relative; left:5px">WINTER</figcaption>
+    	</figure>
+        </td>
+        <td><img class="sideLine" src="line.png" width=20 height=48></td>
+        <td class="me">S</td><td class="o">A</td><td class="n" style="top:-7px;">T</td>
+        <td><b style="font-size: 30px;" class="degree">5°</b></td>
+        </tr>
+        <tr>
+        <td>
+    	<figure class="image4">
+    		<img src="img_c.jpg" width=30 height=20>
+    		<figcaption style="font-size:5px; position:relative; left:5px">WINTER</figcaption>
+    	</figure>
+        </td>
+        <td><img class="sideLine" src="line.png" width=20 height=48></td>
+        <td class="me">S</td><td class="o">U</td><td class="n" style="top:-7px;">N</td>
+        <td><b style="font-size: 30px;" class="degree">4°</b></td>
+        </tr>
+    </table>
+    <table id="middle">
+    <tr>
+        <td>
+    	<figure>
+    		<img src="img_c.jpg" width=70 height=50>
+    		<figcaption id="some3" style="font-size:13px;">WINTER</figcaption>
+    	</figure>
+        </td>
+        <td><img id="line2" src="line.png" width=70 height=90></td>
+        <td><b id="five" style="font-size: 84px; font-family: cursive;">5°</b></td>
+    </tr>
+    <tr></tr> <tr></tr> <tr></tr> <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+    <tr>
+    	<td colspan="3" style="font-size:24px; position:relative; left:-9px;"><b>MONDAY, 30FEB 2090<b></td>
+    </tr>
+    <tr>
+    	<td></td><td style="font-size:10px; position:relative; left:-1px;">Seoul, South Korea</td>
+    </tr>
+    </table>
+    <img id="image2" src="Capture2.jpg" width=280 height=260>
+</body>
+</html>
